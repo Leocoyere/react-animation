@@ -9,6 +9,16 @@ import {
   Texture,
 } from "ogl";
 
+import image1 from '../../assets/images/1.jpg';
+import image2 from '../../assets/images/2.jpg';
+import image3 from '../../assets/images/3.jpg';
+import image4 from '../../assets/images/4.jpg';
+import image5 from '../../assets/images/5.jpg';
+import image6 from '../../assets/images/6.jpg';
+import image7 from '../../assets/images/7.jpg';
+import image8 from '../../assets/images/8.jpg';
+import image9 from '../../assets/images/9.jpg';
+
 import "./index.css";
 
 type GL = Renderer["gl"];
@@ -507,53 +517,41 @@ class App {
   ) {
     const defaultItems = [
       {
-        image: `https://picsum.photos/seed/1/800/600?grayscale`,
-        text: "Bridge",
+        image: image1,
+        text: "Me & Flowers",
       },
       {
-        image: `https://picsum.photos/seed/2/800/600?grayscale`,
-        text: "Desk Setup",
+        image: image2,
+        text: "Some Flowers",
       },
       {
-        image: `https://picsum.photos/seed/3/800/600?grayscale`,
-        text: "Waterfall",
+        image: image3,
+        text: "A Fishman's Cabin",
       },
       {
-        image: `https://picsum.photos/seed/4/800/600?grayscale`,
-        text: "Strawberries",
+        image: image4,
+        text: "Red Lentil Dahl",
       },
       {
-        image: `https://picsum.photos/seed/5/800/600?grayscale`,
-        text: "Deep Diving",
+        image: image5,
+        text: "Monument for Dead Sailors",
       },
       {
-        image: `https://picsum.photos/seed/16/800/600?grayscale`,
-        text: "Train Track",
+        image: image6,
+        text: "A Beach",
       },
       {
-        image: `https://picsum.photos/seed/17/800/600?grayscale`,
-        text: "Santorini",
+        image: image7,
+        text: "Another Beach",
       },
       {
-        image: `https://picsum.photos/seed/8/800/600?grayscale`,
-        text: "Blurry Lights",
+        image: image8,
+        text: "Sand Dune Forest",
       },
       {
-        image: `https://picsum.photos/seed/9/800/600?grayscale`,
-        text: "New York",
-      },
-      {
-        image: `https://picsum.photos/seed/10/800/600?grayscale`,
-        text: "Good Boy",
-      },
-      {
-        image: `https://picsum.photos/seed/21/800/600?grayscale`,
-        text: "Coastline",
-      },
-      {
-        image: `https://picsum.photos/seed/12/800/600?grayscale`,
-        text: "Palm Trees",
-      },
+        image: image9,
+        text: "The Hunt Fontain",
+      }
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);
