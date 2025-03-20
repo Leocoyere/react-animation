@@ -1,0 +1,19 @@
+import CircularText from "../reactbits/CircularText"
+import TextPressure from "../reactbits/TextPressure"
+
+export const Hero = () => {
+    return (
+        <div className="h-screen w-screen flex items-center justify-center">
+            <TextPressure
+                text="Welcome to the Lab!"
+                fontFamily="Compressa VF"
+                fontUrl="https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2"
+                width={true}
+                weight={true}
+                textColor="#000"
+                strokeColor="#000"
+            />
+
+        </div>
+    )
+}
