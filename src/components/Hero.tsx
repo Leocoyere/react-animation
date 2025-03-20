@@ -1,9 +1,8 @@
-import CircularText from "../reactbits/CircularText"
 import TextPressure from "../reactbits/TextPressure"
 
 export const Hero = () => {
     return (
-        <div className="h-screen w-screen flex items-center justify-center">
+        <div className="mb-20">
             <TextPressure
                 text="Welcome to the Lab!"
                 fontFamily="Compressa VF"
@@ -13,7 +12,6 @@ export const Hero = () => {
                 textColor="#000"
                 strokeColor="#000"
             />
-
         </div>
     )
 }
